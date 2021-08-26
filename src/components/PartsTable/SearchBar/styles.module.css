@@ -1,0 +1,13 @@
+.searchBar {
+  display: flex;
+}
+
+.select {
+  min-width: 110px;
+}
+
+.button {
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}

@@ -1,0 +1,44 @@
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+
+.simpleTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.column {
+  display: flex;
+  min-width: 100px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.h3 {
+  margin: 0;
+}
+
+.image {
+  align-self: flex-end;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.button {
+  margin-left: 10px;
+  margin-top: 2rem;
+}
