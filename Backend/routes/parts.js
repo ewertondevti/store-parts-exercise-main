@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const queryContent = require("../../Backend/utils/query-content");
-const storeParts = require("../../Backend/mock-data/parts");
-const partsPerType = require("../../Backend/mock-data/parts-per-type");
-const partTypes = require("../../Backend/mock-data/part-types");
+const queryContent = require("../utils/query-content");
+const storeParts = require("../mock-data/parts");
+const partsPerType = require("../mock-data/parts-per-type");
+const partTypes = require("../mock-data/part-types");
 
 router.get("/parts", (req, res) => {
   const params = { ...req.query };

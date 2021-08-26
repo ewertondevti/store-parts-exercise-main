@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-, "Backend/mock-data"  ]
+, "Backend/mock-data", "Backend/routes"  ]
 }
