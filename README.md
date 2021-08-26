@@ -10,9 +10,13 @@ In the project directory, you can run:
 
 Runs the command npm i or npm install for install all dependencies.
 
+### `npm run api-start`
+
+Runs the script npm run api-start in another command terminal for start run the API.
+
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the script npm start or npm run start for start the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
