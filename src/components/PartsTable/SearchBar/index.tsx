@@ -17,14 +17,14 @@ const SearchBar = ({
   handleFilterByType,
   handleSearch,
 }: IProps) => {
-  const [isDescendingOrder, setIsDescendingOrder] = useState<boolean>(true);
+  const [isDescendingOrder, setIsDescendingOrder] = useState<boolean>(false);
 
   const renderIcon = () =>
-    isDescendingOrder ? <ArrowDownOutlined /> : <ArrowUpOutlined />;
+    isDescendingOrder ? <ArrowUpOutlined /> : <ArrowDownOutlined />;
 
   const handleClick = () => {
-    setIsDescendingOrder(!isDescendingOrder);
     handleOrderByPrice(isDescendingOrder);
+    setIsDescendingOrder(!isDescendingOrder);
   };
 
   return (
